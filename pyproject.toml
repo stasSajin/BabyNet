@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "BabyNet"
+version = "0.1.0"
+description = "Neural networks for baby state recognition"
+authors = ["Stas Sajin"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.1"
+google_images_download = "*"
+notebook = "*"
+fastai = "*"
+fastai2 = "*"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
