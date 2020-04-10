@@ -1,0 +1,26 @@
+<View>
+
+  <View style="padding: 25px;              box-shadow: 2px 2px 8px #AAA">
+    <Header value="Draw bounding box aroung baby"></Header>
+    <Image name="img" value="$image"></Image>
+    <Text name="text1" value="Select label, click and drag on image"></Text>
+
+    <RectangleLabels name="tag" toName="img" canRotate="false">
+      <Label value="Baby" background="red"></Label>
+    </RectangleLabels>
+  </View>
+
+  <View style="margin-top: 20px; padding: 25px;              box-shadow: 2px 2px 8px #AAA;">
+    <Header value="What is the baby state?"></Header>
+    <Choices name="choices1" toName="img" choice="multiple">
+      <Choice alias="sleeping" value="Sleeping"></Choice>
+      <Choice alias="faceCovered" value="Face Covered"></Choice>
+      <Choice alias="awake" value="Awake"></Choice>
+      <Choice alias="crying" value="Crying"></Choice>
+      <Choice alias="upset" value="Upset"></Choice>
+      <Choice alias="eating" value="Eating"></Choice>
+      <Choice alias="smiling" value="Smiling"></Choice>
+      <Choice alias="excited" value="Excited"></Choice>
+    </Choices>
+  </View>
+</View>

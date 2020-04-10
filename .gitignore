@@ -1,3 +1,6 @@
+# Junk
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +130,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+*.jpeg
+*.mov
+*.vott
+*.json
+
+
+#
+!config.json
+!tasks.json
